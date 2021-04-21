@@ -21,5 +21,7 @@ We tell JavaScript to create or declare a **variable** by putting the keyword va
 var ourName;
 creates a variable called ourName. In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
 
+When JavaScript variables are declared, they have an **initial value of undefined**. If you do a mathematical operation on an undefined variable your result will be **NaN which means "Not a Number"**. If you concatenate a string with an undefined variable, you will get a literal string of undefined.
+
 
 
